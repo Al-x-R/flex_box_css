@@ -63,3 +63,15 @@ main{
     width: 41px;
     height: 22px;
 }
+
+.gallery {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.gallery img {
+    width: 360px;
+    height: 230px;
+    margin-bottom: 35px;
+}
