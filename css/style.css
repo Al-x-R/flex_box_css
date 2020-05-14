@@ -158,3 +158,11 @@ main{
     box-shadow: none;
     background: var(--bg-secondary-hover-color);
 }
+
+footer{
+    background: var(--bg-primary-color);
+    font-size: 21px;
+    color: #fefcfc;
+    text-align: center;
+    padding: 110px 0 105px;
+}
