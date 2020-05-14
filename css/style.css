@@ -1,3 +1,9 @@
+:root {
+    --bg-primary-color: #6e78b7;
+    --bg-secondary-color: #d86a43;
+    --bg-secondary-hover-color: #e44d26;
+}
+
 *{
     box-sizing: border-box;
 }
@@ -14,7 +20,7 @@ body{
 }
 
 header {
-    background: #6e78b7;
+    background: var(--bg-primary-color);
     padding: 55px 0;
 }
 
@@ -25,7 +31,7 @@ header .menu {
 
 header .menu a{
     width: 260px;
-    background: #d86a43;
+    background: var(--bg-secondary-color);
     text-decoration: none;
     font-size: 24px;
     font-weight: bold;
@@ -39,7 +45,7 @@ header .menu a{
 
 header .menu a:hover{
     box-shadow: none;
-    background: #e44d26;
+    background: var(--bg-secondary-hover-color);
 }
 
 main{
