@@ -4,11 +4,11 @@
     --bg-secondary-hover-color: #e44d26;
 }
 
-*{
+* {
     box-sizing: border-box;
 }
 
-body{
+body {
     margin: 0;
     padding: 0;
     font-family: Arial;
@@ -29,7 +29,7 @@ header .menu {
     justify-content: space-around;
 }
 
-header .menu a{
+header .menu a {
     width: 260px;
     background: var(--bg-secondary-color);
     text-decoration: none;
@@ -43,14 +43,14 @@ header .menu a{
     box-shadow: 0 0 10px -1px #000;
 }
 
-header .menu a:hover{
+header .menu a:hover {
     box-shadow: none;
     background: var(--bg-secondary-hover-color);
 }
 
-main{
+main {
     background: #deeafb;
-    padding: 55px 0;
+    padding: 55px 0 80px;
 }
 
 .technology {
@@ -82,7 +82,7 @@ main{
     margin-bottom: 35px;
 }
 
-.news article{
+.news article {
     display: flex;
     justify-content: space-between;
     background: #fff;
@@ -90,19 +90,19 @@ main{
     margin-bottom: 40px;
 }
 
-.news article img{
+.news article img {
     width: 340px;
     height: 225px;
     margin-right: 55px;
 }
 
-.news article .description{
+.news article .description {
     color: #511a99;
     font-size: 16px;
     width: 760px;
 }
 
-.news article:nth-child(even) img{
+.news article:nth-child(even) img {
     order: 1;
     margin-right: 0;
     margin-left: 55px;
@@ -120,13 +120,13 @@ main{
     background: var(--bg-primary-color);
     color: #fefcfc;
     box-shadow: 0 0 10px -1px #000;
-    font-size: 18.5px;
+    font-size: 18px;
     display: flex;
     flex-direction: column;
     padding-bottom: 15px;
 }
 
-.headline{
+.headline {
     background: var(--bg-secondary-color);
     margin: 0;
     padding: 25px 0 20px;
@@ -135,13 +135,13 @@ main{
     font-weight: bold;
 }
 
-.card .description{
+.card .description {
     padding: 35px 40px 0 40px;
     text-align: justify;
     line-height: 1.5;
 }
 
-.card .btn{
+.card .btn {
     width: 260px;
     font-size: 24px;
     color: #fff;
@@ -154,7 +154,16 @@ main{
     padding: 14px 0;
     box-shadow: 0 0 10px -1px #000;
 }
+
 .card .btn:hover {
     box-shadow: none;
     background: var(--bg-secondary-hover-color);
+}
+
+footer {
+    background: var(--bg-primary-color);
+    font-size: 21px;
+    color: #fefcfc;
+    text-align: center;
+    padding: 110px 0 105px;
 }
